@@ -1,17 +1,32 @@
 {
-  "name": "",
-  "version": "",
-  "description": "",
-  "author": "",
-  "license": "",
+  "name": "amz_proxy-server",
+  "version": "1.0.0",
+  "description": "Proxy server to route our teams services to one html page",
+  "main": "index.js",
+  "author": "Joshua Scott Oxner",
+  "license": "ISC",
   "engines": {
     "node": ">=6.13.0"
   },
-  "scripts": {
-  },
+  "scripts": {},
   "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.17.0",
+    "eslint-config-airbnb-standard": "^3.1.0",
+    "express": "^4.15.0",
+    "mongodb": "^3.5.6",
+    "mongoose": "^5.7.5",
+    "morgan": "^1.10.0",
+    "request": "^2.81.0"
   },
   "devDependencies": {
-    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor"
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^2.5.1",
+    "http-proxy-middleware": "^1.0.3",
+    "jest": "^25.5.2"
   }
 }
